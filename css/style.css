@@ -1,0 +1,35 @@
+/* common */
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);margin:0;padding:0;font-size:13px;}
+html,body{height:100%;}
+a{text-decoration:none;color:#444;}
+a:hover{text-decoration:underline;}
+ul,ol{list-style:none;}
+
+
+/* layout */
+body{min-width:1020px;}
+nav{background-color:#585858;width:15%;min-width:150px;height:100%;float:left;color:#cfcfcf;}
+section{background-color:#efefef;width:85%;height:100%;float:left;}
+.brand{padding:1em;text-align:center}
+.nav-body select{width:90%;margin:0 0 5px 7px;}
+.nav-body .info-summary{margin:0 7px 5px 7px;padding-bottom:2px;overflow:hidden;border-bottom:1px dotted #747474;font-size:11px;}
+.nav-body .info-summary span{float:right;font-size:11px;color:#fff;}
+.nav-list{background-color:rgba(0,0,0,.3);border:1px solid #333;border-width:1px 0;padding:5px 0 3px 0;text-align:center}
+.nav-list.depth-floor li{width:90px;margin:auto;margin-top:-1px;overflow:hidden;padding-right:10px;border-bottom:1px dotted rgba(255,255,255,.1);font-size:11px;text-align:right}
+.nav-list.depth-floor li span{border:1px solid rgba(255,255,255,.2);border-width:1px 1px 0 1px;margin-left:10px;padding:2px 0 1px 0;width:40px;float:left;display:inline-block;text-align:center;font-size:11px;}
+.nav-list.depth-floor li:last-child span{border-width:1px !important}
+.nav-list.depth-floor .ground-floor{border-bottom:1px solid rgba(255,255,255,.3);-webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.2);-moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.2);box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.2);}
+.nav-list.depth-floor .active span{background-color:#90c747;-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.2);-moz-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.2);box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.2);color:#fff;}
+.side{background-color:#333;width:100%;position:absolute;bottom:0;padding:3px 0 0 0;width:15%;min-width:150px;}
+.side a.camera-4ch,.side a.floor-4ch{padding:5px 0 2px 5px;font-size:12px;color:#999;}
+.side .user{border:1px solid rgba(255,255,255,.1);border-width:1px 0;padding:3px 0 2px 0;text-align:center;}
+.side .user *{padding:4px 0 2px 0;color:#fff;font-size:12px;}
+.side .user a.logout{color:#afafaf;}
+.side .icon-btns{text-align:center;}
+.side .icon-btns a{display:inline-block;padding:25px 0 4px 0;width:31%;text-align:center;font-size:11px;color:#a4a4a4;}
+
+.info-panel{background-color:rgba(255,255,255,.8);position:absolute;bottom:0;right:0;width:85%;}
+.info-panel .title{margin-left:12px;}
+.info-panel .worker,.info-panel .sensor{float:left;width:50%;padding:7px 0 4px 0;}
+.info-panel a{font-size:12px;}
+.info-panel .worker ul,.info-panel .sensor ul{margin:0 12px;}
